@@ -22,7 +22,7 @@ Layers, top to bottom:
 - **Particles** — soft light particles drift across the keyboard
 - **Ctrl / Win / Alt Shortcuts** — hold a modifier: the background dims and the keys of known shortcuts light up (Ctrl red, Win blue, Alt yellow)
 - **Equalizer** — 18 bands from 50 Hz to 10 kHz on the main block, scaled with the system volume
-- **Equalizer - numpad** — its own equalizer on the numpad
+- **Equalizer - numpad** — the whole numpad block turns into its own equalizer while sound plays
 - **Caps Lock blink** — letters blink while Caps Lock is on
 - **Num Lock off** — the Num Lock key blinks orange while Num Lock is off
 - **Mic muted** — Print Screen, Scroll Lock and Pause blink red while the default microphone is muted

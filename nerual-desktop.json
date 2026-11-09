@@ -324,6 +324,146 @@
       "OverrideLogic": {}
     },
     {
+      "Name": "Sound muted",
+      "Handler": {
+        "$type": "AuroraRgb.Settings.Layers.BlinkingLayerHandler, AuroraRgb",
+        "Properties": {
+          "_RandomPrimaryColor": false,
+          "_RandomSecondaryColor": false,
+          "_EffectSpeed": 3.0,
+          "_SecondaryColor": "255, 60, 30, 0",
+          "_PrimaryColor": "255, 120, 0",
+          "_Sequence": {
+            "keys": [
+              34,
+              35,
+              36,
+              37
+            ],
+            "type": 0,
+            "freeform": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 30.0,
+              "Height": 30.0,
+              "Angle": 0.0
+            }
+          },
+          "_Enabled": null,
+          "_LayerOpacity": null,
+          "_Exclusion": {
+            "keys": [],
+            "type": 0,
+            "freeform": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 30.0,
+              "Height": 30.0,
+              "Angle": 0.0
+            }
+          },
+          "RenderMode": 0
+        },
+        "_EnableExclusionMask": null,
+        "_ExclusionMask": {
+          "keys": [],
+          "type": 0,
+          "freeform": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Width": 30.0,
+            "Height": 30.0,
+            "Angle": 0.0
+          }
+        },
+        "Opacity": 1.0,
+        "_Opacity": null
+      },
+      "Enabled": true,
+      "OverrideLogic": {
+        "_Enabled": {
+          "$type": "AuroraRgb.Settings.Overrides.Logic.OverrideDynamicValue, AuroraRgb",
+          "VarType": "System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "ConstructorParameters": {
+            "Value": {
+              "$type": "AuroraRgb.Settings.Overrides.Logic.BooleanGSIBoolean, AuroraRgb",
+              "VariablePath": "Audio/PlaybackDevice/SystemVolumeIsMuted"
+            }
+          }
+        }
+      }
+    },
+    {
+      "Name": "Num Lock off",
+      "Handler": {
+        "$type": "AuroraRgb.Settings.Layers.BlinkingLayerHandler, AuroraRgb",
+        "Properties": {
+          "_RandomPrimaryColor": false,
+          "_RandomSecondaryColor": false,
+          "_EffectSpeed": 2.0,
+          "_SecondaryColor": "255, 40, 0, 0",
+          "_PrimaryColor": "255, 60, 0",
+          "_Sequence": {
+            "keys": [
+              34
+            ],
+            "type": 0,
+            "freeform": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 30.0,
+              "Height": 30.0,
+              "Angle": 0.0
+            }
+          },
+          "_Enabled": null,
+          "_LayerOpacity": null,
+          "_Exclusion": {
+            "keys": [],
+            "type": 0,
+            "freeform": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 30.0,
+              "Height": 30.0,
+              "Angle": 0.0
+            }
+          },
+          "RenderMode": 0
+        },
+        "_EnableExclusionMask": null,
+        "_ExclusionMask": {
+          "keys": [],
+          "type": 0,
+          "freeform": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Width": 30.0,
+            "Height": 30.0,
+            "Angle": 0.0
+          }
+        },
+        "Opacity": 1.0,
+        "_Opacity": null
+      },
+      "Enabled": true,
+      "OverrideLogic": {
+        "_Enabled": {
+          "$type": "AuroraRgb.Settings.Overrides.Logic.OverrideDynamicValue, AuroraRgb",
+          "VarType": "System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "ConstructorParameters": {
+            "Value": {
+              "$type": "AuroraRgb.Settings.Overrides.Logic.BooleanNot, AuroraRgb",
+              "SubCondition": {
+                "$type": "AuroraRgb.Settings.Overrides.Logic.BooleanLockKeyActive, AuroraRgb",
+                "TargetKey": 144
+              }
+            }
+          }
+        }
+      }
+    },
+    {
       "Name": "Equalizer - numpad",
       "Handler": {
         "$type": "AuroraRgb.Settings.Layers.EqualizerLayerHandler, AuroraRgb",
@@ -391,16 +531,23 @@
           "_PrimaryColor": "86, 50, 203",
           "_Sequence": {
             "keys": [
-              105,
-              90,
-              91,
-              92,
+              34,
+              35,
+              36,
+              37,
+              55,
+              56,
+              57,
+              58,
               73,
               74,
               75,
-              55,
-              56,
-              57
+              90,
+              91,
+              92,
+              93,
+              105,
+              106
             ],
             "type": 0,
             "freeform": {
@@ -809,146 +956,6 @@
             "Value": {
               "$type": "AuroraRgb.Settings.Overrides.Logic.BooleanGSIBoolean, AuroraRgb",
               "VariablePath": "Audio/RecordingDevice/MicrophoneIsMuted"
-            }
-          }
-        }
-      }
-    },
-    {
-      "Name": "Num Lock off",
-      "Handler": {
-        "$type": "AuroraRgb.Settings.Layers.BlinkingLayerHandler, AuroraRgb",
-        "Properties": {
-          "_RandomPrimaryColor": false,
-          "_RandomSecondaryColor": false,
-          "_EffectSpeed": 2.0,
-          "_SecondaryColor": "255, 40, 0, 0",
-          "_PrimaryColor": "255, 60, 0",
-          "_Sequence": {
-            "keys": [
-              34
-            ],
-            "type": 0,
-            "freeform": {
-              "X": 0.0,
-              "Y": 0.0,
-              "Width": 30.0,
-              "Height": 30.0,
-              "Angle": 0.0
-            }
-          },
-          "_Enabled": null,
-          "_LayerOpacity": null,
-          "_Exclusion": {
-            "keys": [],
-            "type": 0,
-            "freeform": {
-              "X": 0.0,
-              "Y": 0.0,
-              "Width": 30.0,
-              "Height": 30.0,
-              "Angle": 0.0
-            }
-          },
-          "RenderMode": 0
-        },
-        "_EnableExclusionMask": null,
-        "_ExclusionMask": {
-          "keys": [],
-          "type": 0,
-          "freeform": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Width": 30.0,
-            "Height": 30.0,
-            "Angle": 0.0
-          }
-        },
-        "Opacity": 1.0,
-        "_Opacity": null
-      },
-      "Enabled": true,
-      "OverrideLogic": {
-        "_Enabled": {
-          "$type": "AuroraRgb.Settings.Overrides.Logic.OverrideDynamicValue, AuroraRgb",
-          "VarType": "System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
-          "ConstructorParameters": {
-            "Value": {
-              "$type": "AuroraRgb.Settings.Overrides.Logic.BooleanNot, AuroraRgb",
-              "SubCondition": {
-                "$type": "AuroraRgb.Settings.Overrides.Logic.BooleanLockKeyActive, AuroraRgb",
-                "TargetKey": 144
-              }
-            }
-          }
-        }
-      }
-    },
-    {
-      "Name": "Sound muted",
-      "Handler": {
-        "$type": "AuroraRgb.Settings.Layers.BlinkingLayerHandler, AuroraRgb",
-        "Properties": {
-          "_RandomPrimaryColor": false,
-          "_RandomSecondaryColor": false,
-          "_EffectSpeed": 3.0,
-          "_SecondaryColor": "255, 60, 30, 0",
-          "_PrimaryColor": "255, 120, 0",
-          "_Sequence": {
-            "keys": [
-              34,
-              35,
-              36,
-              37
-            ],
-            "type": 0,
-            "freeform": {
-              "X": 0.0,
-              "Y": 0.0,
-              "Width": 30.0,
-              "Height": 30.0,
-              "Angle": 0.0
-            }
-          },
-          "_Enabled": null,
-          "_LayerOpacity": null,
-          "_Exclusion": {
-            "keys": [],
-            "type": 0,
-            "freeform": {
-              "X": 0.0,
-              "Y": 0.0,
-              "Width": 30.0,
-              "Height": 30.0,
-              "Angle": 0.0
-            }
-          },
-          "RenderMode": 0
-        },
-        "_EnableExclusionMask": null,
-        "_ExclusionMask": {
-          "keys": [],
-          "type": 0,
-          "freeform": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Width": 30.0,
-            "Height": 30.0,
-            "Angle": 0.0
-          }
-        },
-        "Opacity": 1.0,
-        "_Opacity": null
-      },
-      "Enabled": true,
-      "OverrideLogic": {
-        "_Enabled": {
-          "$type": "AuroraRgb.Settings.Overrides.Logic.OverrideDynamicValue, AuroraRgb",
-          "VarType": "System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
-          "ConstructorParameters": {
-            "Value": {
-              "$type": "AuroraRgb.Settings.Overrides.Logic.BooleanGSIBoolean, AuroraRgb",
-              "VariablePath": "Audio/PlaybackDevice/SystemVolumeIsMuted"
             }
           }
         }
