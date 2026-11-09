@@ -25,7 +25,7 @@ Layers, top to bottom:
 - **Equalizer - numpad** — the whole numpad block turns into its own equalizer while sound plays
 - **Caps Lock blink** — letters blink while Caps Lock is on
 - **Num Lock off** — the Num Lock key blinks orange while Num Lock is off
-- **Mic muted** — Print Screen, Scroll Lock and Pause blink red while the default microphone is muted
+- **Mic muted** — Print Screen, Scroll Lock and Pause blink red while the microphone Aurora watches is muted (the Windows default recording device unless you pick another; if that default is a virtual mixer, choose the real microphone in Aurora's settings)
 - **Sound muted** — the top row of the numpad (under the volume wheel) blinks orange while system sound is muted
 - **Scroll Lock on** — the Scroll Lock key blinks blue while Scroll Lock is on
 - **CPU Usage** — CPU load as a bar on F1–F12 (works when Aurora's hardware monitor sees the CPU)
