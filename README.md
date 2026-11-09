@@ -24,9 +24,12 @@ Layers, top to bottom:
 - **Equalizer** — 18 bands from 50 Hz to 10 kHz on the main block, scaled with the system volume
 - **Equalizer - numpad** — its own equalizer on the numpad
 - **Caps Lock blink** — letters blink while Caps Lock is on
+- **Num Lock off** — the Num Lock key blinks orange while Num Lock is off
+- **Mic muted** — Print Screen, Scroll Lock and Pause blink red while the default microphone is muted
+- **Sound muted** — Esc blinks orange while system sound is muted
 - **CPU Usage** — CPU load as a bar on F1–F12 (works when Aurora's hardware monitor sees the CPU)
 - **Edge breathing / Main breathing** — two background zones breathe slowly in random colours
-- **Volume Overlay** (off) — a volume bar for 3 seconds after the volume keys; switch it on in Aurora
+- **Volume Overlay** — a volume bar on F1–F12 for 3 seconds after the volume keys
 
 ## Install
 
