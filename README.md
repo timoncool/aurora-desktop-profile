@@ -38,6 +38,12 @@ Layers, top to bottom:
 2. **Put `nerual-desktop.json`** into `%APPDATA%\Aurora\Profiles\desktop\`.
 3. **Start Aurora** and pick "Nerual Desktop" among the desktop profiles.
 
+## mpv profile
+
+The [`mpv`](mpv) folder holds a profile for the mpv player: the keyboard goes dark and only the control keys stay lit — pause (Space, P) green, seek (arrows, PgUp/PgDn, `,` `.`) blue, volume (9, 0, M, numpad `/` `*`) orange, view (F, Esc, O, I, T) white, subtitles and audio (J, V, Z, X, 3) purple, speed (`[` `]` Backspace) yellow, screenshot (S) cyan, quit (Q) red.
+
+Install: close Aurora, create `%APPDATA%\Aurora\AdditionalProfiles\mpv.exe\`, put `mpv/default.json` there together with a `settings.json` holding `{"IsEnabled": true, "SelectedProfile": "default"}`, start Aurora.
+
 ## With Nexus Fast
 
 If your fans, pump, memory and motherboard run under [Nexus Fast](https://github.com/timoncool/nexus-service), hand the keyboard and mouse to Aurora from the lighting card menu ("Give to Aurora (RGB.NET)"). Aurora then sees and drives only those, Nexus drives the rest, and nobody overwrites anybody's colours.

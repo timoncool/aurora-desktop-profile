@@ -38,6 +38,12 @@
 2. **Положите `nerual-desktop.json`** в `%APPDATA%\Aurora\Profiles\desktop\`.
 3. **Запустите Aurora** и выберите профиль «Nerual Desktop» в профилях рабочего стола.
 
+## Профиль для mpv
+
+В папке [`mpv`](mpv) лежит профиль для плеера mpv: клавиатура гаснет, светятся только клавиши управления — пауза (пробел, P) зелёным, перемотка (стрелки, PgUp/PgDn, `,` `.`) синим, громкость (9, 0, M, `/` `*` на цифровом блоке) оранжевым, вид (F, Esc, O, I, T) белым, субтитры и звук (J, V, Z, X, 3) фиолетовым, скорость (`[` `]` Backspace) жёлтым, скриншот (S) бирюзовым, выход (Q) красным.
+
+Как поставить: закройте Aurora, создайте папку `%APPDATA%\Aurora\AdditionalProfiles\mpv.exe\`, положите туда `mpv/default.json` и файл `settings.json` с содержимым `{"IsEnabled": true, "SelectedProfile": "default"}`, запустите Aurora.
+
 ## Вместе с Nexus Fast
 
 Если вентиляторы, помпа, память и материнка у вас под [Nexus Fast](https://github.com/timoncool/nexus-service), отдайте клавиатуру и мышь Aurora в меню карточки подсветки («Отдать Aurora (RGB.NET)»). Aurora будет видеть и вести только их, Nexus — всё остальное, и цвета никто не перебивает.

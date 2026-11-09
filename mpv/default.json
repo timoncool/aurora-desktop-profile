@@ -1,0 +1,318 @@
+﻿{
+  "ProfileName": "default",
+  "TriggerKeybind": {
+    "_AssignedKeys": []
+  },
+  "ScriptSettings": {},
+  "Layers": [
+    {
+      "Name": "Play / pause",
+      "Handler": {
+        "$type": "AuroraRgb.Settings.Layers.SolidColorLayerHandler, AuroraRgb",
+        "Properties": {
+          "_PrimaryColor": "0, 255, 90",
+          "_Sequence": {
+            "keys": [
+              97,
+              48
+            ],
+            "type": 0,
+            "freeform": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 30.0,
+              "Height": 30.0,
+              "Angle": 0.0
+            }
+          },
+          "_Enabled": null,
+          "_LayerOpacity": null,
+          "_Exclusion": null,
+          "RenderMode": 0
+        },
+        "_EnableExclusionMask": null,
+        "_ExclusionMask": null,
+        "Opacity": 1.0,
+        "_Opacity": null
+      },
+      "Enabled": true,
+      "OverrideLogic": {}
+    },
+    {
+      "Name": "Seek",
+      "Handler": {
+        "$type": "AuroraRgb.Settings.Layers.SolidColorLayerHandler, AuroraRgb",
+        "Properties": {
+          "_PrimaryColor": "0, 140, 255",
+          "_Sequence": {
+            "keys": [
+              102,
+              104,
+              89,
+              103,
+              33,
+              54,
+              85,
+              86
+            ],
+            "type": 0,
+            "freeform": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 30.0,
+              "Height": 30.0,
+              "Angle": 0.0
+            }
+          },
+          "_Enabled": null,
+          "_LayerOpacity": null,
+          "_Exclusion": null,
+          "RenderMode": 0
+        },
+        "_EnableExclusionMask": null,
+        "_ExclusionMask": null,
+        "Opacity": 1.0,
+        "_Opacity": null
+      },
+      "Enabled": true,
+      "OverrideLogic": {}
+    },
+    {
+      "Name": "Volume and mute",
+      "Handler": {
+        "$type": "AuroraRgb.Settings.Layers.SolidColorLayerHandler, AuroraRgb",
+        "Properties": {
+          "_PrimaryColor": "255, 140, 0",
+          "_Sequence": {
+            "keys": [
+              26,
+              27,
+              84,
+              35,
+              36
+            ],
+            "type": 0,
+            "freeform": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 30.0,
+              "Height": 30.0,
+              "Angle": 0.0
+            }
+          },
+          "_Enabled": null,
+          "_LayerOpacity": null,
+          "_Exclusion": null,
+          "RenderMode": 0
+        },
+        "_EnableExclusionMask": null,
+        "_ExclusionMask": null,
+        "Opacity": 1.0,
+        "_Opacity": null
+      },
+      "Enabled": true,
+      "OverrideLogic": {}
+    },
+    {
+      "Name": "Fullscreen and view",
+      "Handler": {
+        "$type": "AuroraRgb.Settings.Layers.SolidColorLayerHandler, AuroraRgb",
+        "Properties": {
+          "_PrimaryColor": "White",
+          "_Sequence": {
+            "keys": [
+              63,
+              1,
+              47,
+              46,
+              43
+            ],
+            "type": 0,
+            "freeform": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 30.0,
+              "Height": 30.0,
+              "Angle": 0.0
+            }
+          },
+          "_Enabled": null,
+          "_LayerOpacity": null,
+          "_Exclusion": null,
+          "RenderMode": 0
+        },
+        "_EnableExclusionMask": null,
+        "_ExclusionMask": null,
+        "Opacity": 1.0,
+        "_Opacity": null
+      },
+      "Enabled": true,
+      "OverrideLogic": {}
+    },
+    {
+      "Name": "Subtitles and audio",
+      "Handler": {
+        "$type": "AuroraRgb.Settings.Layers.SolidColorLayerHandler, AuroraRgb",
+        "Properties": {
+          "_PrimaryColor": "180, 60, 255",
+          "_Sequence": {
+            "keys": [
+              66,
+              81,
+              78,
+              79,
+              20
+            ],
+            "type": 0,
+            "freeform": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 30.0,
+              "Height": 30.0,
+              "Angle": 0.0
+            }
+          },
+          "_Enabled": null,
+          "_LayerOpacity": null,
+          "_Exclusion": null,
+          "RenderMode": 0
+        },
+        "_EnableExclusionMask": null,
+        "_ExclusionMask": null,
+        "Opacity": 1.0,
+        "_Opacity": null
+      },
+      "Enabled": true,
+      "OverrideLogic": {}
+    },
+    {
+      "Name": "Speed",
+      "Handler": {
+        "$type": "AuroraRgb.Settings.Layers.SolidColorLayerHandler, AuroraRgb",
+        "Properties": {
+          "_PrimaryColor": "255, 220, 0",
+          "_Sequence": {
+            "keys": [
+              49,
+              50,
+              30
+            ],
+            "type": 0,
+            "freeform": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 30.0,
+              "Height": 30.0,
+              "Angle": 0.0
+            }
+          },
+          "_Enabled": null,
+          "_LayerOpacity": null,
+          "_Exclusion": null,
+          "RenderMode": 0
+        },
+        "_EnableExclusionMask": null,
+        "_ExclusionMask": null,
+        "Opacity": 1.0,
+        "_Opacity": null
+      },
+      "Enabled": true,
+      "OverrideLogic": {}
+    },
+    {
+      "Name": "Screenshot",
+      "Handler": {
+        "$type": "AuroraRgb.Settings.Layers.SolidColorLayerHandler, AuroraRgb",
+        "Properties": {
+          "_PrimaryColor": "0, 220, 220",
+          "_Sequence": {
+            "keys": [
+              61
+            ],
+            "type": 0,
+            "freeform": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 30.0,
+              "Height": 30.0,
+              "Angle": 0.0
+            }
+          },
+          "_Enabled": null,
+          "_LayerOpacity": null,
+          "_Exclusion": null,
+          "RenderMode": 0
+        },
+        "_EnableExclusionMask": null,
+        "_ExclusionMask": null,
+        "Opacity": 1.0,
+        "_Opacity": null
+      },
+      "Enabled": true,
+      "OverrideLogic": {}
+    },
+    {
+      "Name": "Quit",
+      "Handler": {
+        "$type": "AuroraRgb.Settings.Layers.SolidColorLayerHandler, AuroraRgb",
+        "Properties": {
+          "_PrimaryColor": "Red",
+          "_Sequence": {
+            "keys": [
+              39
+            ],
+            "type": 0,
+            "freeform": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 30.0,
+              "Height": 30.0,
+              "Angle": 0.0
+            }
+          },
+          "_Enabled": null,
+          "_LayerOpacity": null,
+          "_Exclusion": null,
+          "RenderMode": 0
+        },
+        "_EnableExclusionMask": null,
+        "_ExclusionMask": null,
+        "Opacity": 1.0,
+        "_Opacity": null
+      },
+      "Enabled": true,
+      "OverrideLogic": {}
+    },
+    {
+      "Name": "Dim background",
+      "Handler": {
+        "$type": "AuroraRgb.Settings.Layers.SolidColorLayerHandler, AuroraRgb",
+        "Properties": {
+          "_PrimaryColor": "8, 8, 12",
+          "_Sequence": {
+            "keys": [],
+            "type": 1,
+            "freeform": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Width": 1200.0,
+              "Height": 260.0,
+              "Angle": 0.0
+            }
+          },
+          "_Enabled": null,
+          "_LayerOpacity": null,
+          "_Exclusion": null,
+          "RenderMode": 0
+        },
+        "_EnableExclusionMask": null,
+        "_ExclusionMask": null,
+        "Opacity": 1.0,
+        "_Opacity": null
+      },
+      "Enabled": true,
+      "OverrideLogic": {}
+    }
+  ],
+  "OverlayLayers": []
+}

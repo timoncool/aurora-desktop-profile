@@ -330,7 +330,7 @@
         "Properties": {
           "_RandomPrimaryColor": false,
           "_RandomSecondaryColor": false,
-          "_EffectSpeed": 3.0,
+          "_EffectSpeed": 12.75,
           "_SecondaryColor": "255, 60, 30, 0",
           "_PrimaryColor": "255, 120, 0",
           "_Sequence": {
@@ -400,7 +400,7 @@
         "Properties": {
           "_RandomPrimaryColor": false,
           "_RandomSecondaryColor": false,
-          "_EffectSpeed": 2.0,
+          "_EffectSpeed": 12.75,
           "_SecondaryColor": "255, 40, 0, 0",
           "_PrimaryColor": "255, 60, 0",
           "_Sequence": {
@@ -500,8 +500,8 @@
           },
           "_EQType": 0,
           "_ViewType": 0,
-          "_BackgroundMode": 0,
-          "_MaxAmplitude": 20.0,
+          "_BackgroundMode": 2,
+          "_MaxAmplitude": 1.0,
           "_ScaleWithSystemVolume": true,
           "_DimColor": "Black",
           "_Frequencies": [
@@ -630,7 +630,7 @@
           "_EQType": 0,
           "_ViewType": 0,
           "_BackgroundMode": 0,
-          "_MaxAmplitude": 20.0,
+          "_MaxAmplitude": 1.0,
           "_ScaleWithSystemVolume": true,
           "_DimColor": "246, 0, 193",
           "_Frequencies": [
@@ -832,7 +832,7 @@
         "Properties": {
           "_RandomPrimaryColor": false,
           "_RandomSecondaryColor": false,
-          "_EffectSpeed": 2.0,
+          "_EffectSpeed": 12.75,
           "_SecondaryColor": "255, 0, 30, 90",
           "_PrimaryColor": "0, 140, 255",
           "_Sequence": {
@@ -899,7 +899,7 @@
         "Properties": {
           "_RandomPrimaryColor": false,
           "_RandomSecondaryColor": false,
-          "_EffectSpeed": 1.0,
+          "_EffectSpeed": 12.75,
           "_SecondaryColor": "255, 90, 0, 0",
           "_PrimaryColor": "Red",
           "_Sequence": {
