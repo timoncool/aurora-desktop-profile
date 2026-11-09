@@ -26,7 +26,8 @@ Layers, top to bottom:
 - **Caps Lock blink** — letters blink while Caps Lock is on
 - **Num Lock off** — the Num Lock key blinks orange while Num Lock is off
 - **Mic muted** — Print Screen, Scroll Lock and Pause blink red while the default microphone is muted
-- **Sound muted** — Esc blinks orange while system sound is muted
+- **Sound muted** — the top row of the numpad (under the volume wheel) blinks orange while system sound is muted
+- **Scroll Lock on** — the Scroll Lock key blinks blue while Scroll Lock is on
 - **CPU Usage** — CPU load as a bar on F1–F12 (works when Aurora's hardware monitor sees the CPU)
 - **Edge breathing / Main breathing** — two background zones breathe slowly in random colours
 - **Volume Overlay** — a volume bar on F1–F12 for 3 seconds after the volume keys
